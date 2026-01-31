@@ -33,7 +33,7 @@ const Navbar = () => {
         scrolled ? 'glass-card py-4 border-b border-border/20' : 'py-6 bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-6 flex items-center justify-between">
+      <div className="container mx-auto px-7 md:px-20 flex items-center justify-between">
         <a
           href="#"
           onClick={(e) => {
