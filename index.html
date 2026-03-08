@@ -13,5 +13,13 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Check localStorage or system preference
+      document.documentElement.classList.toggle(
+        "dark",
+        localStorage.theme === "dark" || 
+          (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      );
+    </script>
   </body>
 </html>
