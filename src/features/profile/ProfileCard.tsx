@@ -61,9 +61,9 @@ interface TiltEngine {
 }
 
 const ProfileCardComponent: React.FC<ProfileCardProps> = ({
-  avatarUrl = 'https://image2url.com/r2/default/images/1769847993994-3f547da7-4696-432b-ac7b-234ed29915e9.jpg',
+  avatarUrl = '/avatar.jpg',
   iconUrl = 'https://static.vecteezy.com/system/resources/thumbnails/010/332/153/small_2x/code-flat-color-outline-icon-free-png.png',
-  grainUrl = 'https://image2url.com/r2/default/images/1769847993994-3f547da7-4696-432b-ac7b-234ed29915e9.jpg',
+  grainUrl = '/avatar.jpg',
   innerGradient,
   behindGlowEnabled = true,
   behindGlowColor,
