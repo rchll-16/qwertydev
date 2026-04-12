@@ -1,5 +1,5 @@
-import LogoLoop from './LogoLoop';
-import ProfileCard from './ProfileCard';
+import LogoLoop from '../profile/LogoLoop';
+import ProfileCard from '../profile/ProfileCard';
 import { motion } from 'framer-motion';
 import {
   SiHtml5,
